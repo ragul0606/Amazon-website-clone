@@ -55,6 +55,28 @@ li {
   border: 2px solid #1c2042;
 }
 
+header {
+  background-color: rgb(0, 5, 13);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.main-logo {
+  width: 6rem;
+  margin-top: 0.5rem;
+}
+
+.header-anchor,
+.fa-user {
+  color: #fff;
+  margin: 0.75rem 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
 @media screen and (min-width: 576px) {
 }
 
